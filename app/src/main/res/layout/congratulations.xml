@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_16sdp"
+    android:background="@drawable/dialog_rounded_bg"
+    android:gravity="center"
+    android:paddingHorizontal="@dimen/_16sdp"
+    android:paddingVertical="@dimen/_32sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bold"
+        android:text="تهانينا تسوق ممتع"
+        android:textAlignment="center"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/regular"
+        android:text="الطلب جاهز للاستلام من فضلك قم بأخذه من الماكينة"
+        android:textAlignment="center"
+        android:textSize="@dimen/_14ssp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:src="@drawable/cong" />
+</LinearLayout>
